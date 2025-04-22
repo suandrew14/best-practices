@@ -16,9 +16,9 @@ Local functions that are project specific should be included inside a project-lo
 
 === A generalised Data Analytics workflow ===
 
-1. Jupyter notebook: Develop, debug and experiment in Jupyter. Take non-general functions here and move to "project_x_functions.py". 
-2. Pycharm: Make generalised tasks you are doing many times in Jupyter into functions (utils.py) to use in the future. Clean data in Pycharm if it's easier. Write automation scripts here.   
-3. Tableau/PowerBI: Use in the final stages for visualisation and dashboards. 
+1. Jupyter notebook: Develop, debug and experiment in Jupyter. Take non-general, project specific functions here and move to 'local-utils.py'. If you edit 'local-utils.py' while the notebook is running use %load_ext autoreload to re-load the edited package.    
+3. Pycharm: Make generalised tasks you are doing many times in Jupyter into functions 'global-utils.py' to use in the future. Clean data in Pycharm if it's easier. Write automation scripts here.   
+4. Tableau/PowerBI: Use in the final stages for visualisation and dashboards. 
 
 For example, a the data-analytics-portfolio may contain a project folder with the following:
 
