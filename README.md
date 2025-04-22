@@ -7,6 +7,13 @@ help with clarity, organisation and efficency.
 
 
 
+=== Global and local project functions ===
+
+Functions that can be used across any project should be put into a 'global-utils.py' file.  
+Local functions that are project specific should be included inside a project-local 'local-utils.py' file. 
+
+
+
 === A generalised Data Analytics workflow ===
 
 1. Jupyter notebook: Develop, debug and experiment in Jupyter. Take non-general functions here and move to "project_x_functions.py". 
