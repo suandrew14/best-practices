@@ -30,6 +30,7 @@ For example, a the data-analytics-portfolio may contain a project folder with th
     │   └── 02_modeling.ipynb
     ├── scripts/
     │   └── clean_data.py
+    │   └── local-utils.py
     ├── visuals/
     │   └── dashboard.pbix   ← (Power BI file)
     │   └── tableau_dashboard.twbx
